@@ -33,7 +33,7 @@ This repository contains the following scripts:
     Create a `.env` file in the root directory and add your API keys:
     ```dotenv
     GOOGLE_API_KEY=your_google_api_key_here
-    # Add any other required API keys (e.g., OPENAI_API_KEY, ANTHROPIC_API_KEY if used elsewhere)
+    # Add your Google AI Studio API key.
     ```
 5.  **Install Playwright browsers:**
     The `browser-use` library requires Playwright browsers. Install them if you haven't already:
@@ -49,5 +49,4 @@ Execute the Python scripts directly:
 python crypto_agent_gemini.py
 python comfyui-gen-image.py
 python flight_lookup.py
-# etc.
 ```
