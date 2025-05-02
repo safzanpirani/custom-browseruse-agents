@@ -27,7 +27,7 @@ This repository contains the following scripts:
 3.  **Install dependencies:**
     *(Assuming you have a requirements.txt file. If not, you might want to create one based on the imports in your scripts)*
     ```bash
-    pip install -r requirements.txt # Or install manually: pip install browser-use langchain-google-genai python-dotenv pydantic
+    pip install -r requirements.txt
     ```
 4.  **Set up environment variables:**
     Create a `.env` file in the root directory and add your API keys:
@@ -38,7 +38,7 @@ This repository contains the following scripts:
 5.  **Install Playwright browsers:**
     The `browser-use` library requires Playwright browsers. Install them if you haven't already:
     ```bash
-    playwright install chromium # Or other browsers as needed
+    playwright install chromium
     ```
 
 ## Running the Scripts
