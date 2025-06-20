@@ -1,4 +1,4 @@
- # Custom browser-use Scripts
+# Custom browser-use Scripts
 
 This project utilizes the [browser-use](https://github.com/browser-use/browser-use) library to automate various browser tasks using AI agents.
 
@@ -11,6 +11,8 @@ This repository contains the following scripts:
 *   `flight_lookup.py`: An agent that searches Goibibo.com for flight prices (specifically Hyderabad to Bangalore on May 5th, 2025) and saves the results to `flight_report.md` in the script's directory.
 *   `general_web_agent.py`: A general-purpose web agent, currently configured to find and book a hotel on Booking.com according to specified criteria (family size, dates, free cancellation).
 *   `lookup_jobs.py`: An agent designed to search Google Careers, read a local CV (`resume.pdf` or path from `CV_PATH`), evaluate job relevance, save findings to `jobs.csv`.
+*   `social_media_scheduler.py`: An agent that schedules and publishes content across multiple social media platforms (Twitter, LinkedIn, Facebook), tracks engagement metrics, and maintains a content calendar stored in `content_calendar.json`.
+*   `tech_doc_aggregator.py`: An agent that searches for documentation across multiple frameworks/libraries (React.js, FastAPI, TensorFlow), extracts code examples, and creates a personalized reference guide saved as `reference_guide.md`.
 
 ## Setup
 
@@ -46,7 +48,9 @@ This repository contains the following scripts:
 Execute the Python scripts directly:
 
 ```bash
-python crypto_agent_gemini.py
+python crypto_agent.py
 python comfyui-gen-image.py
 python flight_lookup.py
+python social_media_scheduler.py
+python tech_doc_aggregator.py
 ```
